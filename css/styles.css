@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 2rem;
+}
+
+hr {
+    height: 0;
+    width: 4rem;
+    border-style: dotted none none none;
+    border-width: 6px;
+    border-color: #c7c7c7;
+    margin: 5rem auto;
+}
+
+/*######################### CLASS SELECTORS ###########################*/
+.top-container {
+    padding-top: 100px;
+    position: relative;
+    background-color: #e4f9f5;
+}
+
+.middle-containter {
+    background-color: white;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 3rem;
+}
+
+.contact-me {
+    width: 80%;
+    margin: auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.subtitle {
+    font-weight: normal;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 70px;
+    right: 300px;
+}
+
+.computer-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chilli-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profile-img {
+    width: 200px;
+    margin-top: 5rem;
+}
+
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: #11999E;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+
+    margin: 2rem auto 5rem;
+}
+
+.bottom-container p {
+    color: white;
+    font-size: 0.8rem;
+    margin: 2rem auto 0;
+
+}
