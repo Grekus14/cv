@@ -19,21 +19,8 @@ p, li, td {
 }
 
 div {
-    width: 200px;
+    margin: 2rem;
     height: 200px;
     background-color: green;
     border: solid 1px;
-}
-
-
-@media (max-width: 900px) {
-
-.first-div {
-    background-color: purple;
-}
-
-
-
-
-
 }
